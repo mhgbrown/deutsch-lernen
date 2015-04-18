@@ -10,6 +10,20 @@ body {
 
 .tag {
   display: inline-block;
+  width: 100%;
+}
+
+.inschrift {
+  position: fixed;
+}
+
+.inschrift dl dt,
+.inschrift dl dd {
+  display: inline-block;
+}
+
+.inschrift dl dd {
+  margin: 0 40px 0 0;
 }
 
 /*red: 255 3 3
