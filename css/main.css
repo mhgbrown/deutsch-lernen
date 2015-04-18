@@ -8,13 +8,43 @@ body {
   white-space: nowrap;
 }
 
+dl dd,
+dl dt{
+  margin: 0;
+}
+
+main,
+article {
+    height: 100%;
+}
+
+main > h1 {
+  position: fixed;
+  top: 0;
+}
+
+.inner-1 {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.inner-2 {
+  margin: 0px auto;
+  width: 50%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
 .tag {
   display: inline-block;
   width: 100%;
   position: relative;
 }
 
-.tag > h2 {
+.tag h2 {
   position: absolute;
   z-index: -1;
   opacity: 0.1;
@@ -24,6 +54,7 @@ body {
 
 .inschrift {
   position: fixed;
+  bottom: 0;
 }
 
 .inschrift dl dt,
